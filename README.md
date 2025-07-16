@@ -1,6 +1,64 @@
 # fuzzy-logic
 This repository provides material for creating and evaluating fuzzy sets using statistical modeling of fuzzy matrices.
 
+# Recreating the functionality of the "IGLA" DSS
+
+**Project Goal:**  
+Research and recreation of core functionality from the classic "IGLA" Decision Support System using Python and Jupyter Notebook.
+
+---
+
+## 📌 Key Features
+
+- Full implementation of statistical modeling equivalent to the "IGLA" DSS  
+- Creation and management of concept groups  
+- Automatic expansion of cognitive matrices when adding concepts  
+- Setting directed influences between concepts  
+- Construction of transitively closed matrices (max-product closure)  
+- Formation of final influence matrix using max-abs-with-sign rule  
+- Calculation of consonance and dissonance metrics  
+- Computation of integral IGLA system indicators  
+- Building symmetric matrices for mutual influence, consonance, and dissonance  
+- Filtering and visualization of strong connections (α-cut)  
+- Graphical representation of cognitive maps and constructed matrices  
+
+---
+
+## 🚀 Launch and Usage
+- Open the Jupyter Notebook:
+- Follow the notebook sections sequentially:
+1. Creating groups  
+2. Adding concepts  
+3. Example: Creating an "Innovations" map  
+4. Visualization  
+5. Data export  
+6. Building transitively closed matrices  
+7. Influence matrix  
+8. Consonance and dissonance matrices  
+9. IGLA system indicators  
+10. Mutual influence matrices  
+11. Mutual consonance and dissonance matrices  
+Alpha-cut  
+- During execution, you can input your own data and adjust α-thresholds for filtering.
+
+---
+
+## 📊 Data Sources
+Examples use synthetic data: simple group and concept tables.
+
+For real-world modeling, connect your own CSV files and adapt the data import cells accordingly.
+
+---
+
+## ✉️ Contacts and Support
+Author: Vitaliy Saakov  
+GitHub: github.com/iVitalmobTrue/fuzzy-logic  
+E-mail: saakov.vitaliy@mail.ru
+
+
+------------------------------------------
+
+
 # Воссоздание функционала СППР «ИГЛА»
 
 **Цель проекта:**  
